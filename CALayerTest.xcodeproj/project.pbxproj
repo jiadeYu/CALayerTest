@@ -14,6 +14,8 @@
 		FCC4FEFA1BBC197000350A33 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCC4FEF91BBC197000350A33 /* Images.xcassets */; };
 		FCC4FEFD1BBC197000350A33 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCC4FEFB1BBC197000350A33 /* LaunchScreen.xib */; };
 		FCC4FF091BBC197000350A33 /* CALayerTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC4FF081BBC197000350A33 /* CALayerTestTests.m */; };
+		FCC4FF171BBC19C200350A33 /* CustomMyLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC4FF161BBC19C200350A33 /* CustomMyLayer.m */; };
+		FCC4FF191BBC1C7D00350A33 /* hk@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCC4FF181BBC1C7D00350A33 /* hk@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		FCC4FF021BBC197000350A33 /* CALayerTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CALayerTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCC4FF071BBC197000350A33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCC4FF081BBC197000350A33 /* CALayerTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CALayerTestTests.m; sourceTree = "<group>"; };
+		FCC4FF151BBC19C200350A33 /* CustomMyLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomMyLayer.h; sourceTree = "<group>"; };
+		FCC4FF161BBC19C200350A33 /* CustomMyLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomMyLayer.m; sourceTree = "<group>"; };
+		FCC4FF181BBC1C7D00350A33 /* hk@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hk@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +90,9 @@
 				FCC4FEF11BBC197000350A33 /* AppDelegate.m */,
 				FCC4FEF31BBC197000350A33 /* ViewController.h */,
 				FCC4FEF41BBC197000350A33 /* ViewController.m */,
+				FCC4FF181BBC1C7D00350A33 /* hk@2x.png */,
+				FCC4FF151BBC19C200350A33 /* CustomMyLayer.h */,
+				FCC4FF161BBC19C200350A33 /* CustomMyLayer.m */,
 				FCC4FEF61BBC197000350A33 /* Main.storyboard */,
 				FCC4FEF91BBC197000350A33 /* Images.xcassets */,
 				FCC4FEFB1BBC197000350A33 /* LaunchScreen.xib */,
@@ -201,6 +209,7 @@
 			files = (
 				FCC4FEF81BBC197000350A33 /* Main.storyboard in Resources */,
 				FCC4FEFD1BBC197000350A33 /* LaunchScreen.xib in Resources */,
+				FCC4FF191BBC1C7D00350A33 /* hk@2x.png in Resources */,
 				FCC4FEFA1BBC197000350A33 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCC4FF171BBC19C200350A33 /* CustomMyLayer.m in Sources */,
 				FCC4FEF51BBC197000350A33 /* ViewController.m in Sources */,
 				FCC4FEF21BBC197000350A33 /* AppDelegate.m in Sources */,
 				FCC4FEEF1BBC197000350A33 /* main.m in Sources */,
